@@ -1,6 +1,6 @@
 # Введение
 
-## **Версия: 1.4**
+## **Версия: 1.5**
 
 * [Базовая настройка счетчика](bazovaya-nastroika-schetchika/)
   * [Регистрация в Топ-100](bazovaya-nastroika-schetchika/registraciya-v-top-100.md)

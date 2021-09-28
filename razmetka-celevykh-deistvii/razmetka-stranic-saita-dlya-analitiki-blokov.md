@@ -52,10 +52,6 @@
 
 3.Существует возможность эмулировать вложенные блоки без привязки к DOM-разметке. Для этого на отдельный элемент DOM требуется назначить всю цепочку от 2-го уровня вложенности.
 
-4.Существует возможность добавить отправку атрибутов сразу во все счетчики, которые есть на странице. Для этого можно воспользоваться параметром [`common_attributes`](../donastroika-schetchika/atributy-schetchika.md) и указать в нем нужные data-атрибуты. 
-
-5.При необходимости можно отключить автоматическую передачу данных через параметр [`usabilityManualControl`](../donastroika-schetchika/atributy-schetchika.md). В этом случае необходимо вызывать принудительную отправку данных, через метод [`sendBlocks`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md).
-
 **Пример:**
 
 `<a href=’link’ data-just-test-attr=’YOUR_LOGICAL_CONTAINER::YOUR_LOGICAL_CONTAINER_2::YOUR_LOGICAL_NAME_2’>Link text</a>`
