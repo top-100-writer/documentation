@@ -41,5 +41,5 @@
 
 **Пример вызова в коде страницы метода syncUserId:**
 
-`window.top100Counter.syncUserId(user_id);`
+`window.top100Counter.syncUserId(user_id, user_scope);`
 
