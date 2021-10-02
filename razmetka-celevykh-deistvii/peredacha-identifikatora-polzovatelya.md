@@ -13,7 +13,7 @@
     // …
     var options = {
         // …
-        user_id: <USER_ID> || null
+        user_id: <USER_ID>, || null
     };
     // …
 <!-- END Top100 (Kraken) Counter -->
@@ -37,4 +37,11 @@
 
 * Если человек пришёл незалогиненный и залогинился в процессе работы с сайтом: в атрибутах счетчика при инициализации следует указать «`user_id: null`» и далее после авторизации передать нужный идентификатор пользователя через [`syncUserId`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md).
 * Если человек пришёл залогиненным, затем разлогинился и перелогинился: в атрибутах счетчика при инициализации следует указать исходный идентификатор пользователя, потом через [`syncUserId`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md) передать `null` \(если это необходимо\) и снова через [`syncUserId`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md) передать новый идентификатор.
+* Если необходимо получить идентификатор пользователя и его scope можно воспользоваться методом [`getPublisherId`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md), в котором вернутся строковые значения id и scope.
+
+`top100Counter.getPublisherId ();  
+// вернет  
+{  
+    id: <USER_ID>  
+}`
 
