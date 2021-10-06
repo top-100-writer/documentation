@@ -24,6 +24,7 @@
   * [Промерочный пиксель на все страницы](instrukciya-dlya-partnerov/promerochnyi-piksel-na-vse-stranicy.md)
   * [Пиксель для отслеживания цели](instrukciya-dlya-partnerov/piksel-dlya-otslezhivaniya-celi.md)
   * [Пиксель для баннера](instrukciya-dlya-partnerov/piksel-dlya-bannera.md)
+* [Поддержка Турбо-страниц](podderzhka-turbo-stranic.md)
 * [Поддержка AMP](podderzhka-amp.md)
 * [Обратная связь](obratnaya-svyaz.md)
 
