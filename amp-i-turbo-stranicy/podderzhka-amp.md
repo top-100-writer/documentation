@@ -1,10 +1,8 @@
 # Поддержка AMP
 
-С помощью Топ-100 можно собирать базовую статистику с [AMP-страниц](https://www.ampproject.org/).
+Для сбора базовой статистики с [AMP-страниц](https://www.ampproject.org) на каждой их них необходимо разместить код вида:
 
-Для этого на каждой [AMP-странице](https://www.ampproject.org/) необходимо поместить код вида:
-
-```text
+```
 <!-- Top100.rambler.ru example -->
 <amp-analytics type="top100" id="top100" config="https://kraken.rambler.ru/amp/config.json">
 <script type="application/json">
@@ -27,4 +25,3 @@
 * Содержание,
 * Аудитория,
 * Источники трафика.
-

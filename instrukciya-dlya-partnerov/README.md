@@ -7,4 +7,4 @@
 * [Промерочный пиксель на все страницы](promerochnyi-piksel-na-vse-stranicy.md)
 * [Пиксель для отслеживания целей](piksel-dlya-otslezhivaniya-celi.md)
 * [Пиксель для баннера](piksel-dlya-bannera.md)
-
+* [Партнерское API](partnerskoe-api/)

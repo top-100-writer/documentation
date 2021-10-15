@@ -25,8 +25,15 @@
   * [Промерочный пиксель на все страницы](instrukciya-dlya-partnerov/promerochnyi-piksel-na-vse-stranicy.md)
   * [Пиксель для отслеживания цели](instrukciya-dlya-partnerov/piksel-dlya-otslezhivaniya-celi.md)
   * [Пиксель для баннера](instrukciya-dlya-partnerov/piksel-dlya-bannera.md)
-* [Поддержка AMP](podderzhka-amp.md)
+  * [Партнёрское API](instrukciya-dlya-partnerov/partnerskoe-api/)
+* [Протокол работы со счетчиком](protokol-raboty-so-schetchikom/)
+  * [Формат запроса](protokol-raboty-so-schetchikom/format-zaprosa.md)
+  * [Базовые параметры запроса](protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
+  * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
+  * [Передача целевых действий](protokol-raboty-so-schetchikom/peredacha-celevykh-deistvii/)
+* [AMP и Турбо-страницы](amp-i-turbo-stranicy/)
+  * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
+  * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
 * [Обратная связь](obratnaya-svyaz.md)
 
-\(c\) Рамблер, 2021
-
+(c) Рамблер, 2021
