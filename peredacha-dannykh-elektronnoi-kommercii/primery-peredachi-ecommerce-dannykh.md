@@ -131,7 +131,7 @@ dataLayer.push({dataLayer.push({
 ```
 dataLayer.push({
     ecommerce: {
-        currencyCode: “RUB”,
+        currencyCode: 'RUB',
         checkout: {
             products: [{
                 id: 'P15432',
