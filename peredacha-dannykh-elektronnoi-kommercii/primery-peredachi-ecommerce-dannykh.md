@@ -14,7 +14,7 @@ dataLayer.push({
             list : 'Результаты поиска',
             brand: 'Печки-лавочки',
             category: 'Одежда/Мужская одежда/Футболки',
-            variant: 'Серый цвет'
+            variant: 'Серый цвет',
             position: 2,
             price: 2345.50
         },
@@ -24,7 +24,7 @@ dataLayer.push({
             list : 'Результаты поиска',
             brand: 'Печки-лавочки',
             category: 'Одежда/Мужская одежда/Футболки',
-            variant: 'Зеленый цвет'
+            variant: 'Зеленый цвет',
             position: 1,
             price: 1499.00
         }]
@@ -182,7 +182,7 @@ dataLayer.push({
                 price: 2345.26,
                 brand: 'Печки-лавочки',
                 category: 'Одежда/Мужская одежда/Толстовки и свитшоты',
-                variant: 'Жёлтый цвет'
+                variant: 'Жёлтый цвет',
                 quantity: 2
             },
             {
@@ -212,7 +212,7 @@ dataLayer.push({
                 price: 2345.26,
                 brand: 'Печки-лавочки',
                 category: 'Одежда/Мужская одежда/Толстовки и свитшоты',
-                variant: 'Серый цвет'
+                variant: 'Серый цвет',
                 quantity: 2
             },
             {
