@@ -8,7 +8,7 @@
 
 **Пример отправки данных о шагах реализуемого сценария:**
 
-`window.top100Counter.sendCustomVars({‘<partner>::<product>::<utm_campaing>::<step_id>’: 1})`
+`window.top100Counter.sendCustomVars({'<partner>::<product>::<utm_campaing>::<step_id>': 1})`
 
 В примере выше необходимо заменить переменные `<partner>`, `<product>`, `<utm_campaing>`, `<step_id>` на нужные вам.
 
@@ -16,19 +16,18 @@
 
 Шаг 1: Выбор услуги
 
--&gt; Никаких действий не нужно.
+\-> Никаких действий не нужно.
 
 Шаг 2: Оформление услуги
 
--&gt; После загрузки формы необходимо вызвать функцию счётчика:
+\-> После загрузки формы необходимо вызвать функцию счётчика:
 
-`window.top100Counter.sendCustomVars({‘ivan_and_partners::service::summercampaign::step_1’: 1})`
+`window.top100Counter.sendCustomVars({'ivan_and_partners::service::summercampaign::step_1': 1})`
 
 Шаг 3: Ознакомление с формой электронного сертификата на получение услуги
 
--&gt; После загрузки формы необходимо вызвать функцию счётчика
+\-> После загрузки формы необходимо вызвать функцию счётчика
 
-`window.top100Counter.sendCustomVars({‘ivan_and_partners::service::summercampaign::step_2’: 1})`
+`window.top100Counter.sendCustomVars({'ivan_and_partners::service::summercampaign::step_2': 1})`
 
 > _**Примечание:** Состав отслеживаемых шагов может быть различным в зависимости от специфики реализуемых на сайте пользовательских сценариев._
-

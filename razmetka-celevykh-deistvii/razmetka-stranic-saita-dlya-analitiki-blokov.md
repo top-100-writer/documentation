@@ -13,49 +13,49 @@
 
 1.Определение значения data-атрибута должно быть добавлено для каждого блока, по которому требуется собирать статистику. Название полей, используемых для этого в разметке, должно соответствовать шаблону «`data-<название>`_»_, где `<название>` – это наименование data-атрибута, из числа задаваемых в коде счетчика через параметр [`attributes_dataset`](../donastroika-schetchika/atributy-schetchika.md).
 
-**Пример указания значения data-атрибута **`just-test-attr`** в разметке блока на сайте:**
+**Пример указания значения data-атрибута** `just-test-attr` **в разметке блока на сайте:**
 
-`<a href=’link’ data-just-test-attr=’YOUR_LOGICAL_NAME’>Link text</a>`
+`<a href='link' data-just-test-attr='YOUR_LOGICAL_NAME'>Link text</a>`
 
-**Пример передачи data-атрибута **`just-test-attr`** в атрибутах счетчика:**
+**Пример передачи data-атрибута** `just-test-attr` **в атрибутах счетчика:**
 
 ```
 <!-- Top100 (Kraken) Counter -->
     // …
     var options = {
         project: PROJECT_ID,
-        attributes_dataset: [ ‘just-test-attr’ ]
+        attributes_dataset: [ 'just-test-attr' ]
     };
     // …
 <!-- END Top100 (Kraken) Counter -->
 ```
 
-> _**Примечание:** После клика на блок _`YOUR_LOGICAL_NAME`_ будет зафиксировано событие “нажатие” _`just-test-attr::YOUR_LOGICAL_NAME`_._
+> _**Примечание:** После клика на блок_ `YOUR_LOGICAL_NAME` _будет зафиксировано событие “нажатие”_ `just-test-attr::YOUR_LOGICAL_NAME`_._
 
 2.Для построения дерева логической разметки необходимо использовать вложенные контейнеры с проставленными data-атрибутами.
 
 **Пример:**
 
-`<div data-just-test-attr=’YOUR_LOGICAL_CONTAINER’>`
+`<div data-just-test-attr='YOUR_LOGICAL_CONTAINER'>`
 
-`<a href=’link’ data-just-test-attr=’YOUR_LOGICAL_NAME_1’>Linktext</a>`
+`<a href='link' data-just-test-attr='YOUR_LOGICAL_NAME_1'>Linktext</a>`
 
-`<div data-just-test-attr=’YOUR_LOGICAL_CONTAINER_2’>`
+`<div data-just-test-attr='YOUR_LOGICAL_CONTAINER_2'>`
 
-`<a href=’link’ data-just-test-attr=’YOUR_LOGICAL_NAME_2’>Linktext</a>`
-
-`</div>`
+`<a href='link' data-just-test-attr='YOUR_LOGICAL_NAME_2'>Linktext</a>`
 
 `</div>`
 
-> _**Примечание:** По нажатию на ссылку _`YOUR_LOGICAL_NAME_2`_ будет зафиксировано событие _`just-test-attr::YOUR_LOGICAL_CONTAINER::YOUR_LOGICAL_CONTAINER_2::YOUR_LOGICAL_NAME_2`_._
+`</div>`
+
+> _**Примечание:** По нажатию на ссылку_ `YOUR_LOGICAL_NAME_2` _будет зафиксировано событие_ `just-test-attr::YOUR_LOGICAL_CONTAINER::YOUR_LOGICAL_CONTAINER_2::YOUR_LOGICAL_NAME_2`_._
 
 3.Существует возможность эмулировать вложенные блоки без привязки к DOM-разметке. Для этого на отдельный элемент DOM требуется назначить всю цепочку от 2-го уровня вложенности.
 
-4.Существует возможность добавить отправку атрибутов сразу во все счетчики, которые есть на странице. Для этого можно воспользоваться параметром [`common_attributes`](../donastroika-schetchika/atributy-schetchika.md) и указать в нем нужные data-атрибуты. 
+4.Существует возможность добавить отправку атрибутов сразу во все счетчики, которые есть на странице. Для этого можно воспользоваться параметром [`common_attributes`](../donastroika-schetchika/atributy-schetchika.md) и указать в нем нужные data-атрибуты.&#x20;
 
 5.При необходимости можно отключить автоматическую передачу данных через параметр [`usabilityManualControl`](../donastroika-schetchika/atributy-schetchika.md). В этом случае необходимо вызывать принудительную отправку данных, через метод [`sendBlocks`](../donastroika-schetchika/metody-po-rabote-so-schetchikom.md).
 
 **Пример:**
 
-`<a href=’link’ data-just-test-attr=’YOUR_LOGICAL_CONTAINER::YOUR_LOGICAL_CONTAINER_2::YOUR_LOGICAL_NAME_2’>Link text</a>`
+`<a href='link' data-just-test-attr='YOUR_LOGICAL_CONTAINER::YOUR_LOGICAL_CONTAINER_2::YOUR_LOGICAL_NAME_2'>Link text</a>`
