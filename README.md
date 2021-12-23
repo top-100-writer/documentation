@@ -28,7 +28,6 @@
   * [Формат запроса](protokol-raboty-so-schetchikom/format-zaprosa.md)
   * [Базовые параметры запроса](protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
   * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
-  * [Передача целевых действий](protokol-raboty-so-schetchikom/peredacha-celevykh-deistvii/)
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/)
   * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
   * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
