@@ -33,4 +33,4 @@
   * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
 * [Обратная связь](obratnaya-svyaz.md)
 
-(c) Рамблер, 2021
+(c) Рамблер, 2022
