@@ -11,4 +11,3 @@
 * [Формат запроса](format-zaprosa.md)
 * [Базовые параметры запроса](bazovye-parametry-zaprosa.md)
 * [Специальные параметры запроса](specialnye-parametry-zaprosa.md)
-* [Передача целевых действий](peredacha-celevykh-deistvii/)
