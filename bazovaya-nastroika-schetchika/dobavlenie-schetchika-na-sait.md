@@ -16,7 +16,7 @@
 (function (w, d, c) {
     (w[c] = w[c] || []).push(function() {
         var options = {
-            project: ‘PROJECT_ID’
+            project: 'PROJECT_ID'
         };
         try {
             w.top100Counter = new top100(options);
@@ -47,7 +47,7 @@
 <script src="//st.top100.ru/top100/top100.js"></script>
 <script>
     var options = {
-        project: ‘PROJECT_ID’`
+        project: 'PROJECT_ID'`
     };
     try {
         window.top100Counter = new top100(options);
