@@ -10,9 +10,9 @@
 (function (w, d, c) {
     (w[c] = w[c] || []).push(function() {
         var options = {
-            project: ‘PROJECT_ID’,
+            project: 'PROJECT_ID',
             // …
-            ecommerce: ‘dataLayer’
+            ecommerce: 'dataLayer'
         };
         try {
             w.top100Counter = new top100(options);
