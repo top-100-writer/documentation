@@ -41,6 +41,8 @@
 * [Протокол работы со счетчиком](protokol-raboty-so-schetchikom/README.md)
   * [Формат запроса](protokol-raboty-so-schetchikom/format-zaprosa.md)
   * [Базовые параметры запроса](protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
+  * [Базовые события](protokol-raboty-so-schetchikom/bazovye-sobytiya.md)
+  * [Заголовки запроса](protokol-raboty-so-schetchikom/zagolovki-zaprosa.md)
   * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/README.md)
   * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
