@@ -10,32 +10,32 @@
 
 **Пример кода счетчика для асинхронной загрузки:**
 
-```text
+```
 <!-- Top100 (Kraken) Counter -->
 <script>
 (function (w, d, c) {
     (w[c] = w[c] || []).push(function() {
         var options = {
-            project: ‘PROJECT_ID’
+            project: 'PROJECT_ID'
         };
         try {
             w.top100Counter = new top100(options);
         } catch(e) { }
     });
-    var n = d.getElementsByTagName(“script”)[0],
-    s = d.createElement(“script”),
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
     f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = “text/javascript”;
+    s.type = "text/javascript";
     s.async = true;
     s.src =
-        (d.location.protocol == “https:” ? “https:” : “http:”) +
-        “//st.top100.ru/top100/top100.js”;
-    if (w.opera == “[object Opera]”) {
-        d.addEventListener(“DOMContentLoaded”, f, false);
+        (d.location.protocol == "https:" ? "https:" : "http:") +
+        "//st.top100.ru/top100/top100.js”;
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
     } else { f(); }
-})(window, document, “_top100q”);
+})(window, document, "_top100q");
 </script>
-<noscript><img src=”//counter.rambler.ru/top100.cnt?pid=PROJECT_ID”></noscript>
+<noscript><img src="//counter.rambler.ru/top100.cnt?pid=PROJECT_ID"></noscript>
 <!-- END Top100 (Kraken) Counter -->
 ```
 
@@ -43,17 +43,17 @@
 
 **Пример кода счетчика для синхронной загрузки:**
 
-```text
-<script src=”//st.top100.ru/top100/top100.js”></script>
+```
+<script src="//st.top100.ru/top100/top100.js"></script>
 <script>
     var options = {
-        project: ‘PROJECT_ID’`
+        project: 'PROJECT_ID'`
     };
     try {
         window.top100Counter = new top100(options);
     } catch(e) { }
 </script>
-<noscript><img src=”//counter.rambler.ru/top100.cnt?pid=PROJECT_ID”></noscript>
+<noscript><img src="//counter.rambler.ru/top100.cnt?pid=PROJECT_ID"></noscript>
 <!-- END Top100 (Kraken) Counter -->
 ```
 
@@ -61,11 +61,10 @@
 
 * Посещаемость,
 * Технологии,
-* Аналитика блоков \(данные будут собираться, если в настройках счетчика стоит признак необходимости аналитики блоков страниц, и указаны data-атрибуты, использованные в разметке блоков страниц сайта\),
+* Аналитика блоков (данные будут собираться, если в настройках счетчика стоит признак необходимости аналитики блоков страниц, и указаны data-атрибуты, использованные в разметке блоков страниц сайта),
 * Содержание,
 * Аудитория,
 * Источники трафика,
 * UTM метки.
 
 **ВНИМАНИЕ!** Статистика перестанет собираться, если на вашем сайте не будет ни одного посещения в течение девяти календарных дней. При этом в случае участия в рейтинге сайт оттуда пропадёт, и соответствующая настройка счетчика будет сброшена. Если в дальнейшем будет зафиксировано посещение, то сбор статистики возобновится. Участие в рейтинге автоматически восстановится, и сайт будет возвращен в рейтинг. Также будет выполнена повторная проверка [метаданных сайта](http://help.rambler.ru/top100/top100-faq/1524/).
-

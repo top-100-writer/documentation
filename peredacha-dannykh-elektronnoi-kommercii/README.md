@@ -10,16 +10,16 @@
 (function (w, d, c) {
     (w[c] = w[c] || []).push(function() {
         var options = {
-            project: ‘PROJECT_ID’,
+            project: 'PROJECT_ID',
             // …
-            ecommerce: ‘dataLayer’
+            ecommerce: 'dataLayer'
         };
         try {
             w.top100Counter = new top100(options);
         } catch(e) { }
     });
 // …
-})(window, document, “_top100q”);
+})(window, document, "_top100q");
 </script>
 // …
 <!-- END Top100 (Kraken) Counter -->
@@ -28,11 +28,11 @@
 Для подключения сбора данных необходимо разместить контейнер данных на страницах сайта и настроить передачу в Топ-100 данных о событиях, происходящих с товарами (например, добавление в корзину или покупка). Данные о действиях с товарами передаются push-методом в контейнер данных в виде JavaScript-объектов, содержащих идентификатор действия и список описаний товаров, с которыми это действие произведено:
 
 ```
-<script type=”text/javascript”>
+<script type="text/javascript">
     window.dataLayer = window.dataLayer || [];
 </script>
 // …
-<script type=”text/javascript”>
+<script type="text/javascript">
     window.dataLayer.push({…});
 </script>
 ```
