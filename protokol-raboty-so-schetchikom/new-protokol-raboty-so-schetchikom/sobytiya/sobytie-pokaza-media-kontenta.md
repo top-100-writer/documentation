@@ -19,6 +19,8 @@
 | anm      | String | Имя автора                                       |
 | aid      | String | Идентификатор автора                             |
 | aurl     | String | Ссылка на страницу автора                        |
-| thm      | String | Тематика                                         |
+| thm      | String | Мета теги                                        |
 | cat      | String | Категория                                        |
 | sch      | String | Тип разметки (micro/ld)                          |
+
+**Пример:**
