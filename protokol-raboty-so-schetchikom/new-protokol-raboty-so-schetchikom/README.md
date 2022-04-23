@@ -11,8 +11,7 @@
 
 Подробнее про формат запроса и параметры:
 
-* [Формат запроса](../format-zaprosa.md)
-* [Базовые параметры запроса](../bazovye-parametry-zaprosa.md)
-* [Базовые события](../bazovye-sobytiya.md)
-* [Заголовки запроса](../zagolovki-zaprosa.md)
-* [Специальные параметры запроса](../specialnye-parametry-zaprosa.md)
+* [Формат запроса](format-zaprosa.md)
+* [Параметры запроса](parametry-zaprosa.md)
+* [События](sobytiya/)
+* [Заголовки запроса](zagolovki-zaprosa.md)
