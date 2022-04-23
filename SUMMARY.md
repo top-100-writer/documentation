@@ -54,7 +54,7 @@
         * [Переход по внешней ссылке](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/bazovye-sobytiya/perekhod-po-vneshnei-ssylke.md)
         * [Пользовательская активность](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/bazovye-sobytiya/polzovatelskaya-aktivnost.md)
         * [Смена идентификатора пользователя](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/bazovye-sobytiya/smena-identifikatora-polzovatelya.md)
-      * [События медиа](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/sobytiya-media.md)
+      * [Событие показа медиа контента](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/sobytie-pokaza-media-kontenta.md)
       * [События аналитики блоков](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/sobytiya-analitiki-blokov.md)
     * [Заголовки запроса](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/zagolovki-zaprosa.md)
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/README.md)
