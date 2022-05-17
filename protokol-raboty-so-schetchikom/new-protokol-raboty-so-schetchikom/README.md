@@ -12,6 +12,6 @@
 Подробнее про формат запроса и параметры:
 
 * [Формат запроса](format-zaprosa.md)
-* [Параметры запроса](parametry-zaprosa.md)
+* [Параметры запроса](bazovye-parametry-zaprosa.md)
 * [События](sobytiya/)
 * [Заголовки запроса](zagolovki-zaprosa.md)

@@ -46,7 +46,7 @@
   * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
   * [NEW Протокол работы со счетчиком](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/README.md)
     * [Формат запроса](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/format-zaprosa.md)
-    * [Параметры запроса](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/parametry-zaprosa.md)
+    * [Базовые параметры запроса](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
     * [События](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/README.md)
       * [Базовые события](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/bazovye-sobytiya/README.md)
         * [Показ страницы / экрана](protokol-raboty-so-schetchikom/new-protokol-raboty-so-schetchikom/sobytiya/bazovye-sobytiya/pokaz-stranicy-ekrana.md)
