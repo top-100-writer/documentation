@@ -2,25 +2,25 @@
 
 Событие показа медиа контента передается со значением **event\_name=page\_view**, при этом **event\_type=media**. Дополнительную информацию можно пережать в формате JSON в параметре meta. Возможное поля:
 
-| Параметр | Формат | Описание                                         |
-| -------- | ------ | ------------------------------------------------ |
-| title    | String | Названием медиа контента                         |
-| type     | String | Тип контента (article/news/blog/..)              |
-| id       | String | Id контента                                      |
-| url      | String | Канонический url контента (без query параметров) |
-| dpub     | String | Дата публикации                                  |
-| dmod     | String | Дата модификации                                 |
-| des      | String | Описание материала, не более 500 символов        |
-| arth     | String | Высота контента в px                             |
-| artst    | String | Смещение контента от начала страницы в px        |
-| arts     | Number | Количество символов в контенте                   |
-| artw     | Number | Количество слов в контенте                       |
-| img      | Number | Количество картинок в контенте                   |
-| anm      | String | Имя автора                                       |
-| aid      | String | Идентификатор автора                             |
-| aurl     | String | Ссылка на страницу автора                        |
-| thm      | String | Мета теги                                        |
-| cat      | String | Категория                                        |
-| sch      | String | Тип разметки (micro/ld)                          |
+| Параметр         | Формат | Описание                                         |
+| ---------------- | ------ | ------------------------------------------------ |
+| name             | String | Названием медиа контента                         |
+| type             | String | Тип контента (article/news/blog/..)              |
+| id               | String | Id контента                                      |
+| url              | String | Канонический url контента (без query параметров) |
+| date\_published  | String | Дата публикации                                  |
+| date\_modified   | String | Дата модификации                                 |
+| description      | String | Описание материала, не более 500 символов        |
+| article\_height  | String | Высота контента в px                             |
+| article\_start   | String | Смещение контента от начала страницы в px        |
+| article\_symbols | Number | Количество символов в контенте                   |
+| article\_words   | Number | Количество слов в контенте                       |
+| article\_images  | Number | Количество картинок в контенте                   |
+| author\_name     | String | Имя автора                                       |
+| author\_id       | String | Идентификатор автора                             |
+| author\_url      | String | Ссылка на страницу автора                        |
+| themes           | String | Мета теги                                        |
+| category         | String | Категория                                        |
+| schema           | String | Тип разметки (micro/ld)                          |
 
 **Пример:**
