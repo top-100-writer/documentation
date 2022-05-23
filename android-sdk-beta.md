@@ -16,6 +16,9 @@ dependencies {
 ### Инициализация в классе Application
 
 ```
+import ru.sberads.kraken.Kraken;
+import ru.sberads.kraken.KrakenSettings;
+
 public class MyApplication extends Application {
     @Override
     public final void onCreate() {
