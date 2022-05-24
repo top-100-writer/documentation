@@ -61,5 +61,5 @@
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/README.md)
   * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
   * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
-* [Обратная связь](obratnaya-svyaz.md)
 * [Android Sdk \[BETA\]](android-sdk-beta.md)
+* [Обратная связь](obratnaya-svyaz.md)
