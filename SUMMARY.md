@@ -56,6 +56,7 @@
         * [Смена идентификатора пользователя](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/bazovye-sobytiya/smena-identifikatora-polzovatelya.md)
       * [Событие показа медиа контента](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/sobytie-pokaza-media-kontenta.md)
       * [События аналитики блоков](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/sobytiya-analitiki-blokov.md)
+      * [Пользовательские события](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/polzovatelskie-sobytiya.md)
     * [Заголовки запроса](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/zagolovki-zaprosa.md)
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/README.md)
   * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
