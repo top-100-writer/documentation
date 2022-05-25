@@ -8,3 +8,5 @@
 Например, meta={color: black, image: true}
 
 **Пример:**
+
+`https://kraken.rambler.ru/cnt/v2/?`

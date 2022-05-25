@@ -24,3 +24,5 @@
 | schema           | String | Тип разметки (micro/ld)                          |
 
 **Пример:**
+
+`https://kraken.rambler.ru/cnt/v2/?`
