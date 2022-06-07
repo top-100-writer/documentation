@@ -26,15 +26,16 @@ public class MyApplication extends Application {
             // ...
             .build();
         Kraken.activate(getApplicationContext(), krakenSettings);
+        Kraken.activateAutoTracking(this);
     }
 }
 ```
 
 **PROJECT\_ID** (обязательный) - id проекта, аналогичный js счетчику
 
-### Отправка событий при активации экрана
+### Отправка событий об активации экрана
 
-Для отправки события о просмотре экрана необходимо при активации Activity при ее создании выполнить следующий код
+Для ручной отправки события о просмотре экрана необходимо при активации Activity при ее создании выполнить следующий код
 
 ```
 Kraken.trackPageView("SCREEN_CLASS", "URL");
