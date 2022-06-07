@@ -22,7 +22,7 @@ import ru.sberads.kraken.KrakenSettings;
 public class MyApplication extends Application {
     @Override
     public final void onCreate() {
-        KrakenSettings krakenSettings = new KrakenSettings.Builder(getApplicationContext(), "PROJECT_ID")
+        KrakenSettings krakenSettings = new KrakenSettings.Builder("PROJECT_ID")
             // ...
             .build();
         Kraken.activate(getApplicationContext(), krakenSettings);
