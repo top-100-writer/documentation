@@ -99,7 +99,21 @@
 
 ### Тематика
 
+Для передачи тематики необходимо использовать поле [about](https://schema.org/about). Тематики отражают содержание статьи. В отличие от рубрик, количество тематик материала не ограничено. Обозначьте ее ключевыми словами или тегами.
+
+**Пример:**
+
+`<div` `itemprop="about">Мода</div>` \
+&#x20; `<div` `itemprop="about"` `itemscope=""` `itemtype="`[`https://schema.org/Thing`](https://schema.org/Thing)`">` `` \
+&#x20; `<span` `itemprop="name">Одежда</span>` \
+`</div>`
+
 ### Автор
+
+Для передачи автора можно воспользоваться полями [author](https://schema.org/author) или [person](https://schema.org/Person). Если их несколько, укажите каждого в отдельном теге.
+
+`<div` `itemprop="author">Автор статьи</div>`\
+`<div` `itemprop="author"` `itemscope=""` `itemtype="`[`http://schema.org/Person`](http://schema.org/Person)`">    <span` `itemprop="name">Автор статьи</span></div>`
 
 ### Аннотация материала (вводный абзац)
 
