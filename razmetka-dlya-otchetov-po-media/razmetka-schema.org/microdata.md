@@ -6,17 +6,17 @@
 
 Для корректной передачи информации следует настроить следующие сущности:
 
-* Тип материала \[обязательно]
-* Идентификатор материала \[обязательно]
-* Заголовок материала \[обязательно]
-* Дата публикации \[обязательно]
-* Дата модификации
-* Рубрика
-* Тематика
-* Автор
-* Аннотация материала (вводный абзац)
-* Текст
-* Видео
+* [Тип материала](microdata.md#tip-materiala) \[обязательно]
+* [Идентификатор материала](microdata.md#identifikator-materiala) \[обязательно]
+* [Заголовок материала](microdata.md#id-standartysemanticheskoimikrorazmetki-microdata-zagolovok-required) \[обязательно]
+* [Дата публикации](microdata.md#data-publikacii) \[обязательно]
+* [Дата модификации](microdata.md#data-modifikacii)
+* [Рубрика](microdata.md#rubrika)
+* [Тематика](microdata.md#tematika)
+* [Автор](microdata.md#avtor)
+* [Аннотация материала ](microdata.md#annotaciya-materiala-vvodnyi-abzac)(вводный абзац)
+* [Текст](microdata.md#tekst)
+* [Видео](microdata.md#video)
 
 Как разметить материал:
 
