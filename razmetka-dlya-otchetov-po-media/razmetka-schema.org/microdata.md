@@ -79,6 +79,24 @@
 
 **Пример:**
 
+`<ol` `itemscope=""` `itemtype="`[`http://schema.org/BreadcrumbList`](http://schema.org/BreadcrumbList)`">` \
+&#x20; `<li` `itemprop="itemListElement"` `itemscope=""` `itemtype="`[`http://schema.org/ListItem`](http://schema.org/ListItem)`">` \
+&#x20;   `<a` `itemprop="item"` `href="//site.ru/fashion">` \
+&#x20;   `<span` `itemprop="name">Мода</span></a>` \
+&#x20;   `<meta` `itemprop="position"` `content="1">` \
+&#x20; `</li>` \
+&#x20; `<li` `itemprop="itemListElement"` `itemscope=""` `itemtype="`[`http://schema.org/ListItem`](http://schema.org/ListItem)`">` \
+&#x20;   `<a` `itemprop="item"` `href="//site.ru/fashion/boho">` \
+&#x20;   `<span` `itemprop="name">Стиль бохо</span></a>` \
+&#x20;   `<meta` `itemprop="position"` `content="2">` \
+&#x20; `</li>` \
+&#x20; `<li` `itemprop="itemListElement"` `itemscope=""` `itemtype="`[`http://schema.org/ListItem`](http://schema.org/ListItem)`">` \
+&#x20;   `<a` `itemprop="item"` `href="//site.ru/fashion/boho/woven-bags">` \
+&#x20;   `<span` `itemprop="name">Плетеные сумки</span></a>` \
+&#x20;   `<meta` `itemprop="position"` `content="3">` \
+&#x20; `</li>` \
+`</ol>`
+
 ### Тематика
 
 ### Автор
