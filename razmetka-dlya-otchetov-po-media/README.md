@@ -9,3 +9,11 @@
 * провести аналитику показателей авторов.&#x20;
 
 Для настройки передачи данных для медиа отчетов необходимо добавить на сайт разметку Schema.org и отправить письмо в [counter@rambler-co.ru](mailto:counter@rambler-co.ru) с запросом на подключение.
+
+{% content-ref url="razmetka-schema.org/" %}
+[razmetka-schema.org](razmetka-schema.org/)
+{% endcontent-ref %}
+
+{% content-ref url="ruchnaya-otpravka-sobytiya-kontakta-s-media.md" %}
+[ruchnaya-otpravka-sobytiya-kontakta-s-media.md](ruchnaya-otpravka-sobytiya-kontakta-s-media.md)
+{% endcontent-ref %}
