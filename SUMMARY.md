@@ -15,7 +15,7 @@
   * [Разметка разделов сайта](razmetka-celevykh-deistvii/razmetka-razdelov-saita.md)
   * [Учет хешей](razmetka-celevykh-deistvii/uchet-kheshei.md)
   * [Сплиты](razmetka-celevykh-deistvii/splity.md)
-* [Разметка сайта для аналитики блоков (Раздел обновляется)](razmetka-stranic-saita-dlya-analitiki-blokov/README.md)
+* [Разметка сайта для аналитики блоков](razmetka-stranic-saita-dlya-analitiki-blokov/README.md)
   * [Описание принципов работы](razmetka-stranic-saita-dlya-analitiki-blokov/opisanie-principov-raboty.md)
   * [Рекомендации по настройке и использованию](razmetka-stranic-saita-dlya-analitiki-blokov/rekomendacii-po-nastroike-i-ispolzovaniyu.md)
   * [Ограничения и особенности применения](razmetka-stranic-saita-dlya-analitiki-blokov/ogranicheniya-i-osobennosti-primeneniya.md)
