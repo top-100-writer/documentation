@@ -63,4 +63,4 @@ var options = {
 
 ## 5. **Признак аналитики блоков страниц**
 
-Для подключения сбора аналитики блоков страниц необходимо указать перечень data-атрибутов, [используемых в разметке блоков страниц](../razmetka-celevykh-deistvii/razmetka-stranic-saita-dlya-analitiki-blokov.md) для сбора данных по количеству показов и нажатий на эти блоки. Подробнее – см. описание атрибута [`attributes_dataset`](../donastroika-schetchika/atributy-schetchika.md).
+Для подключения сбора аналитики блоков страниц необходимо указать перечень data-атрибутов, [используемых в разметке блоков страниц](../razmetka-stranic-saita-dlya-analitiki-blokov/) для сбора данных по количеству показов и нажатий на эти блоки. Подробнее – см. описание атрибута [`attributes_dataset`](../donastroika-schetchika/atributy-schetchika.md).

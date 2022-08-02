@@ -11,7 +11,7 @@
 * [Разметка целевых действий](razmetka-celevykh-deistvii/)
   * [Передача параметров визита](razmetka-celevykh-deistvii/peredacha-parametrov-vizita.md)
   * [Передача идентификатора пользователя](razmetka-celevykh-deistvii/peredacha-identifikatora-polzovatelya.md)
-  * [Разметка страниц сайта для аналитики блоков](razmetka-celevykh-deistvii/razmetka-stranic-saita-dlya-analitiki-blokov.md)
+  * [Разметка страниц сайта для аналитики блоков](razmetka-stranic-saita-dlya-analitiki-blokov/)
   * [Разметка разделов сайта](razmetka-celevykh-deistvii/razmetka-razdelov-saita.md)
   * [Учет хешей](razmetka-celevykh-deistvii/uchet-kheshei.md)
   * [Сплиты](razmetka-celevykh-deistvii/splity.md)

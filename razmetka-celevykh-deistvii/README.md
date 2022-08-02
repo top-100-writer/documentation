@@ -6,8 +6,7 @@
 
 * [Передавать параметры визита](peredacha-parametrov-vizita.md)
 * [Передавать идентификатор пользователя](peredacha-identifikatora-polzovatelya.md)
-* [Разметить страницы сайта для аналитики блоков](razmetka-stranic-saita-dlya-analitiki-blokov.md)
+* [Разметить страницы сайта для аналитики блоков](../razmetka-stranic-saita-dlya-analitiki-blokov/)
 * [Разметить разделы сайта](razmetka-razdelov-saita.md)
 * [Учитывать хеши](uchet-kheshei.md)
 * [Реализовать сплиты](splity.md)
-
