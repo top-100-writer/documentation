@@ -1,4 +1,4 @@
-# Android Sdk \[BETA]
+# Android sdk \[Beta]
 
 ### Подключение sdk
 
@@ -16,14 +16,14 @@ dependencies {
 ### Инициализация в классе Application
 
 ```
-import ru.sberads.kraken.Kraken;
-import ru.sberads.kraken.KrakenSettings;
+import ru.rambler.android.kraken.data.model.KrakenSettings
+import ru.rambler.android.kraken.di.Kraken.activateAutoTracking
 
 public class MyApplication extends Application {
     @Override
     public final void onCreate() {
         KrakenSettings krakenSettings = new KrakenSettings.Builder("PROJECT_ID")
-            // ...
+            // установка параметров
             .build();
         Kraken.activate(getApplicationContext(), krakenSettings);
         Kraken.activateAutoTracking(this);
@@ -33,7 +33,41 @@ public class MyApplication extends Application {
 
 **PROJECT\_ID** (обязательный) - id проекта, аналогичный js счетчику
 
+### Параметры возможные для передачи при инициализации
+
+Передача идентификатора пользователя от площадки
+
+```
+.publisherId("PUBLISHER_ID")
+```
+
+Передача области видимости идентификатора
+
+```
+.publisherScope("PUBLISHER_SCOPE")
+```
+
+Передача авторизованного идентификатора пользователя
+
+```
+.userId("AUTH_USER_ID")
+```
+
+Передача телефона пользователя.  Данные хэшируются алгоритмом sha256
+
+```
+.phoneHash("9-910-910-10-90")
+```
+
+Передача email пользователя.  Данные хэшируются алгоритмом sha256
+
+```
+.emailHash(email@rambler.ru)
+```
+
 ### Отправка событий об активации экрана
+
+Если передается настройка Kraken.activateAutoTracking(this), то запуск активностей в первый раз фиксируется автоматически. Если необходимо самостоятельно фиксировать просмотр экрана, то можно воспользоваться отдельным методом.
 
 Для ручной отправки события о просмотре экрана необходимо при активации Activity при ее создании выполнить следующий код
 
