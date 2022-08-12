@@ -74,7 +74,7 @@
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/README.md)
   * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
   * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
-* [Android sdk \[Beta\]](android-sdk-beta/README.md)
+* [Android sdk \[Beta\]](amp-i-turbo-stranicy/podderzhka-web-view.md)
   * [Методы по работе с sdk](android-sdk-beta/metody-po-rabote-s-sdk.md)
   * [Параметры sdk](android-sdk-beta/parametry-sdk.md)
 * [Обратная связь](obratnaya-svyaz.md)

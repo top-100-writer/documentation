@@ -9,7 +9,7 @@
 | <pre><code>.emailHash(email@rambler.ru)</code></pre>             | Передача email пользователя. Данные будут захэшируются алгоритмом sha256        |
 | <pre><code>.setActivityAutoTracking(enabled = true)</code></pre> | Включение автоматической отправки события page\_view при переходе на активность |
 
-
+**Пример передачи настроек:**
 
 ```
 override fun onCreate() {
