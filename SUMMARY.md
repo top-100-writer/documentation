@@ -77,4 +77,7 @@
 * [Android sdk \[Beta\]](amp-i-turbo-stranicy/podderzhka-web-view.md)
   * [Методы по работе с sdk](android-sdk-beta/metody-po-rabote-s-sdk.md)
   * [Параметры sdk](android-sdk-beta/parametry-sdk.md)
+* [iOS sdk \[Beta\]](ios-sdk-beta/README.md)
+  * [Методы по работе с sdk](ios-sdk-beta/metody-po-rabote-s-sdk.md)
+  * [Параметры sdk](ios-sdk-beta/parametry-sdk.md)
 * [Обратная связь](obratnaya-svyaz.md)

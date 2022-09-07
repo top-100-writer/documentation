@@ -15,6 +15,8 @@ dependencies {
 
 ### Базовая инициализация в классе Application
 
+Инициализируйте библиотеку в приложении и настройте отслеживание активности пользователей. Для этого объявите производный класс от базового класса `Application` и переопределите метод `onCreate()`
+
 ```
 import ru.top100.tracker.kraken.data.model.KrakenSettings
 import ru.top100.tracker.kraken.di.Kraken

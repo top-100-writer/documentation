@@ -27,7 +27,7 @@ Kraken.trackPageView("SCREEN_CLASS", "URL", "TITLE");
 ```
 
 **SCREEN\_CLASS** (обязательный) - название активности, например, "MainActivity"\
-**URL** (опциональный) - релевантный url для web страницы, например, "http://rambler.ru"\
+**URL** (опциональный) - релевантный url для web страницы, например, "https://rambler.ru"\
 **TITLE** (опциональный) - название экрана
 
 ### Отправка собственных событий
@@ -47,7 +47,8 @@ Kraken.trackEvent("EVENT_NAME", EVENT_DATA);
 ```
 String eventName = "my_event";
 Map<String, String> eventData = new HashMap<>();
-eventData.put("param", "value");
+eventData.put("param_1", "value_1");
+eventData.put("param_2", "value_2");
 
 Kraken.trackEvent(eventName, eventData);
 ```
