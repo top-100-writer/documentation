@@ -42,7 +42,7 @@ Kraken.trackEvent("EVENT_NAME", EVENT_DATA);
 
 **EVENT\_DATA** (опциональный) - произвольные данные о событии, не более 30 параметров в формате Map\<String, String>
 
-Пример:
+**Пример:**
 
 ```
 String eventName = "my_event";
