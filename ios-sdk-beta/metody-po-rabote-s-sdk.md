@@ -5,7 +5,7 @@
 Для ручной отправки события о просмотре экрана необходимо в контроллере вызвать следующий код
 
 ```
-kraken!.trackPageView("SCREEN_CLASS", "URL", "TITLE");
+kraken!.trackPageView(className: "SCREEN_CLASS", url: "URL", title: "TITLE");
 ```
 
 **SCREEN\_CLASS** (обязательный) - название активности, например, "MainActivity"\
@@ -28,7 +28,7 @@ class MainViewController: UIViewController {
 При необходимости можно отправить любое собственное событие с помощью метода
 
 ```
-Kraken.trackEvent("EVENT_NAME", EVENT_DATA);
+Kraken.trackEvent(eventName: "EVENT_NAME", eventValues: EVENT_DATA);
 ```
 
 **EVENT\_NAME** - произвольное название события
