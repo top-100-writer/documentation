@@ -6,7 +6,7 @@
 | <pre><code>.publisherScope("PUBLISHER_SCOPE")</code></pre>       | Передача области видимости идентификатора площадки                              |
 | <pre><code>.userId("AUTH_USER_ID")</code></pre>                  | Передача авторизованного идентификатора пользователя                            |
 | <pre><code>.phoneHash("8-910-910-10-90")</code></pre>            | Передача телефона пользователя.  Данные будут захэшируются алгоритмом sha256    |
-| <pre><code>.emailHash(email@rambler.ru)</code></pre>             | Передача email пользователя. Данные будут захэшируются алгоритмом sha256        |
+| <pre><code>.emailHash("email@rambler.ru")</code></pre>           | Передача email пользователя. Данные будут захэшируются алгоритмом sha256        |
 | <pre><code>.setActivityAutoTracking(enabled = true)</code></pre> | Включение автоматической отправки события page\_view при переходе на активность |
 
 **Пример передачи настроек:**
