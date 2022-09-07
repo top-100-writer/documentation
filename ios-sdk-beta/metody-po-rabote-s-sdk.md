@@ -33,7 +33,7 @@ Kraken.trackEvent(eventName: "EVENT_NAME", eventValues: EVENT_DATA);
 
 **EVENT\_NAME** - произвольное название события
 
-**EVENT\_DATA** (опциональный) - произвольные данные о событии, не более 30 параметров в формате Dictionary \[String, String]
+**EVENT\_DATA** (опциональный) - произвольные данные о событии, не более 30 параметров в формате \[String, String]
 
 **Пример:**
 
