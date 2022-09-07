@@ -28,7 +28,7 @@ class MainViewController: UIViewController {
 При необходимости можно отправить любое собственное событие с помощью метода
 
 ```
-Kraken.trackEvent(eventName: "EVENT_NAME", eventValues: EVENT_DATA);
+kraken!.trackEvent(eventName: "EVENT_NAME", eventValues: EVENT_DATA);
 ```
 
 **EVENT\_NAME** - произвольное название события
