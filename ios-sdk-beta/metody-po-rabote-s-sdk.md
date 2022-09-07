@@ -39,7 +39,7 @@ Kraken.trackEvent("EVENT_NAME", EVENT_DATA);
 
 ```
 let eventName: String = "my_event"
-let eventData: [String: String] = ["param_1": "value_1", "param_2", "value_2"]
+let eventData: [String: String] = ["param_1": "value_1", "param_2": "value_2"]
 
 kraken!.trackEvent(eventName: eventName, eventValues: eventData)
 ```
