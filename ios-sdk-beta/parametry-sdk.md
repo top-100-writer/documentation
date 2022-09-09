@@ -19,6 +19,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     settings.setEmail(email: "user@domain.ru") // хеши посчитаются автоматом
     settings.setPhone(phone: "8-910-910-90-10") // хеши посчитаются автоматом
 
-    kraken = TrackerTop100(settings: settings)
+    TrackerTop100.activate(settings: settings)
 }
 ```
