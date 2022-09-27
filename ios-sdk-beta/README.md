@@ -32,4 +32,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-**PROJECT\_ID** (обязательный) - id проекта, аналогичный js счетчику
+**PROJECT\_ID** (обязательный) — id проекта, аналогичный js счетчику

@@ -8,9 +8,9 @@
 TrackerTop100.trackPageView(className: "SCREEN_CLASS", url: "URL", title: "TITLE");
 ```
 
-**SCREEN\_CLASS** (обязательный) - название активности, например, "MainActivity"\
-**URL** (опциональный) - релевантный url для web страницы, например, "https://rambler.ru"\
-**TITLE** (опциональный) - название экрана
+**SCREEN\_CLASS** (обязательный) — название активности, например, "MainActivity"\
+**URL** (опциональный) — релевантный url для web страницы, например, "https://rambler.ru"\
+**TITLE** (опциональный) — название экрана
 
 **Пример:**
 
@@ -31,9 +31,9 @@ TrackerTop100.trackPageView(className: "SCREEN_CLASS", url: "URL", title: "TITLE
 TrackerTop100.trackEvent(eventName: "EVENT_NAME", eventValues: EVENT_DATA);
 ```
 
-**EVENT\_NAME** - произвольное название события
+**EVENT\_NAME** (обязательный) — произвольное название события
 
-**EVENT\_DATA** (опциональный) - произвольные данные о событии, не более 30 параметров в формате Dictionary \<String, String>
+**EVENT\_DATA** (опциональный) — произвольные данные о событии, не более 30 параметров в формате Dictionary \<String, String>
 
 **Пример:**
 
