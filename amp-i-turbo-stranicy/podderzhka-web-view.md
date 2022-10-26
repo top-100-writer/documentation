@@ -28,6 +28,8 @@ public class MyApplication extends Application {
              application = this,
              krakenSettings = KrakenSettings
                  .Builder(projectId = "PROJECT_ID")
+                 // автоматическое отслеживание загрузки активностей
+                 .setActivityAutoTracking(enabled = true)
                  // установка параметров sdk
                  .build()
         )
