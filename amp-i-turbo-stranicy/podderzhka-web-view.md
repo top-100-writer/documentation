@@ -9,7 +9,7 @@ SDK под Android предоставляется в виде библиотек
 ```
 dependencies {
     // ...
-    implementation 'io.github.top-100-writer:tracker-top100-sdk:0.0.21'
+    implementation 'io.github.top-100-writer:tracker-top100-sdk:0.1.0'
 }
 ```
 
