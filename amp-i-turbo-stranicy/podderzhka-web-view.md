@@ -9,17 +9,7 @@ SDK под Android предоставляется в виде библиотек
 ```
 dependencies {
     // ...
-    // непосредственно sdk
-    implementation 'io.github.top-100-writer:tracker-top100-sdk:0.0.19'
-    // зависимости
-    implementation 'androidx.datastore:datastore-core:1.0.0'
-    implementation 'com.google.protobuf:protobuf-javalite:3.21.2'
-    implementation 'com.google.code.gson:gson:2.9.1'
-    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.9'
-    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.9'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.google.android.gms:play-services-appset:16.0.2'
-    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'io.github.top-100-writer:tracker-top100-sdk:0.0.21'
 }
 ```
 
