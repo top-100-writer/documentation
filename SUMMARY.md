@@ -66,7 +66,6 @@
         * [Закрытие страницы](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/bazovye-sobytiya/zakrytie-stranicy.md)
         * [Переход по внешней ссылке](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/bazovye-sobytiya/perekhod-po-vneshnei-ssylke.md)
         * [Пользовательская активность](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/bazovye-sobytiya/polzovatelskaya-aktivnost.md)
-        * [Смена идентификатора пользователя](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/bazovye-sobytiya/smena-identifikatora-polzovatelya.md)
       * [Событие показа медиа контента](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/sobytie-pokaza-media-kontenta.md)
       * [События аналитики блоков](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/sobytiya-analitiki-blokov.md)
       * [Пользовательские события](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new/sobytiya/polzovatelskie-sobytiya.md)
