@@ -51,7 +51,7 @@ end
 Для подключения добавьте зависимость в `Cartfile`
 
 ```
-"https://github.com/top-100-writer/top100-tracker-ios/blob/main/TrackerTop100SDK.json" ~> 1.0.0
+binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main/TrackerTop100SDK.json" ~> 1.0.0
 ```
 
 Обновите зависимости с помощью команды `carthage update --use-xcframeworks`
