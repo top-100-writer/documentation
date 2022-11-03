@@ -10,7 +10,7 @@
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Нажмите на "+" для добавления нового пакета и укажите URL репозитория: [`https://github.com/top-100-writer/top100-tracker-ios`](https://github.com/top-100-writer/top100-tracker-ios) в нем находится Package.swift.
+Нажмите на "+" для добавления нового пакета и укажите URL репозитория: `https://github.com/top-100-writer/top100-tracker-ios` в нем находится Package.swift.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-02 at 18.06.56.png" alt=""><figcaption></figcaption></figure>
 
