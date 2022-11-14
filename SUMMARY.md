@@ -76,7 +76,6 @@
 * [Android sdk \[Beta\]](amp-i-turbo-stranicy/podderzhka-web-view.md)
   * [Параметры sdk](android-sdk-beta/parametry-sdk.md)
   * [Методы по работе с sdk](android-sdk-beta/metody-po-rabote-s-sdk.md)
-  * [Интеграция для RamblerCo](android-sdk-beta/integraciya-dlya-ramblerco.md)
 * [iOS sdk \[Beta\]](ios-sdk-beta/README.md)
   * [Методы по работе с sdk](ios-sdk-beta/metody-po-rabote-s-sdk.md)
   * [Параметры sdk](ios-sdk-beta/parametry-sdk.md)
