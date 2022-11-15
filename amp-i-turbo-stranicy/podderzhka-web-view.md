@@ -39,11 +39,11 @@ import ru.top100.tracker.kraken.di.Kraken;
 public class MyApplication extends Application {
     @Override
     public final void onCreate() {
-      KrakenSettings config = new KrakenSettings.Builder("PROJECT_ID")
-          // автоматическое отслеживание загрузки активностей
-          .setActivityAutoTracking(true)
-          .build();
-      Kraken.activate((Application) getApplicationContext(), config);
+        KrakenSettings config = new KrakenSettings.Builder("PROJECT_ID")
+            // автоматическое отслеживание загрузки активностей
+            .setActivityAutoTracking(true)
+            .build();
+        Kraken.activate((Application) getApplicationContext(), config);
     }
 }
 ```
