@@ -68,7 +68,27 @@ binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-11-03 at 16.07.42.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
+
+{% tab title="Прямое подключение" %}
+Если вы не используете системы управления зависимостями, то можете подключить фреймворк с пакетом напрямую в свое приложение.
+
+Для подключения напрямую:
+
+[Загрузите архив с пакетом](https://github.com/top-100-writer/top100-tracker-ios-sdk/releases/download/1.0.0/TrackerTop100SDK.xcframework.zip)
+
+Откройте вкладку `General settings` вашего приложения и найдите раздел `Frameworks, Libraries, and Embedded Content`&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-14 at 14.02.38.png" alt=""><figcaption></figcaption></figure>
+
+Выберете пакет `TrackerTop100SDK.xcframework` из папки `Carthage/Build` на диске или просто перетяните его
+
+<figure><img src="../.gitbook/assets/Screenshot 2022-11-14 at 14.09.47.png" alt=""><figcaption></figcaption></figure>
+
+После сборки проекта пакет в виде фреймворка должен отобразиться левой панели.
+{% endtab %}
 {% endtabs %}
+
+
 
 ### Базовая инициализация в методе Application(Swift)
 

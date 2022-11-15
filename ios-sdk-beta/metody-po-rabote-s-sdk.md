@@ -53,15 +53,22 @@ import WebKit
 import TrackerTop100SDK
 
 class WebViewController: UIViewController {
-    let webView = WKWebView()
-    // ...
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
-        let jsString = "window.Kraken.getData = function() { return \"\(TrackerTop100.getData())\" }"
-        webView.evaluateJavaScript(jsString)
+        // Добавляем script после того как html загрузится
+        let userScript = WKUserScript(source: TrackerTop100.getDataToWebView(), injectionTime: .atDocumentEnd, forMainFrameOnly: true)
+        
+        // Устанавлваем скрипт в конфигурацию загрузки webview
+        let userContentController = WKUserContentController()
+        userContentController.addUserScript(userScript)
+        let configuration = WKWebViewConfiguration()
+        configuration.userContentController = userContentController
+        
+        let webView = WKWebView(frame: self.view.bounds, configuration: configuration)
+        
+        //...
     }
-    // ...
 }
 
 ```
