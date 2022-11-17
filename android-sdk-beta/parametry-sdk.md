@@ -11,19 +11,37 @@
 
 **Пример передачи настроек:**
 
+{% tabs %}
+{% tab title="Java" %}
+```
+public final void onCreate() {
+    KrakenSettings config = new KrakenSettings.Builder("PROJECT_ID")
+        .userId("USER_ID")
+        .publisherId("PUBLISHER_ID")
+        .publisherScope("PUBLISHER_SCOPE")
+        .phone("8-910-910-90-10") // хеши посчитаются автоматом
+        .email("user@domain.ru") // хеши посчитаются автоматом
+        .setActivityAutoTracking(true)
+        .build();
+    Kraken.activate((Application) getApplicationContext(), config);
+}
+```
+{% endtab %}
+
+{% tab title="Kotlin" %}
 ```
 override fun onCreate() {
     super.onCreate()
     Kraken.activate(
         application = this,
         krakenSettings = KrakenSettings
-            .Builder("PROJECT_ID")
-            .userId("USER_ID")
-            .publisherId("PUBLISHER_ID")
-            .publisherScope("PUBLISHER_SCOPE")
-            .phone("8-910-910-90-10") // хеши посчитаются автоматом
-            .email("user@domain.ru") // хеши посчитаются автоматом
-            .setActivityAutoTracking(true) // по-умолчанию false
+            .Builder(projectId = "PROJECT_ID")
+            .userId(userIdValue = "USER_ID")
+            .publisherId(publisherIdValue = "PUBLISHER_ID")
+            .publisherScope(publisherScopeValue = "PUBLISHER_SCOPE")
+            .phone(phone = "8-910-910-90-10") // хеши посчитаются автоматом
+            .email(email = "user@domain.ru") // хеши посчитаются автоматом
+            .setActivityAutoTracking(enabled = true) // по-умолчанию false
             .build()
         )
         .disableActivityAutoTracking() // можно задать/переопределить
@@ -32,3 +50,5 @@ override fun onCreate() {
     Kraken.disableActivityAutoTracking()
 }
 ```
+{% endtab %}
+{% endtabs %}
