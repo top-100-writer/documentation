@@ -88,11 +88,11 @@ binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main
 {% endtab %}
 {% endtabs %}
 
+### Базовая инициализация
 
-
-### Базовая инициализация в методе Application(Swift)
-
-Инициализируйте библиотеку в методе `application(_:didFinishLaunchingWithOptions:)` вашего `UIApplicationDelegate`:
+{% tabs %}
+{% tab title="Swift" %}
+Инициализируйте библиотеку в методе `application(_:didFinishLaunchingWithOptions:)` вашего `AppDelegate`:
 
 ```
 //  AppDelegate.swift
@@ -108,5 +108,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 ```
+{% endtab %}
+
+{% tab title="Objective-C" %}
+Инициализируйте библиотеку в методе `- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions` вашего `AppDelegate` :
+
+```
+// AppDelegate.m
+@import TrackerTop100SDK;
+
+@implementation AppDelegate
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    TrackerTop100Settings *settings = [[TrackerTop100Settings alloc] initWithProjectId: @"PROJECT_ID"];
+    // ... установка параметров sdk
+    [TrackerTop100 activateWithSettings: [settings build]];
+}
+```
+{% endtab %}
+{% endtabs %}
 
 **PROJECT\_ID** (обязательный) — id проекта, аналогичный js счетчику
