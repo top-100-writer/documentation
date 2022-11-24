@@ -33,7 +33,7 @@ platform :ios, '11.0'
 
 target 'MyApp' do
   use_frameworks!
-  pod 'TrackerTop100SDK', '1.1.1'
+  pod 'TrackerTop100SDK', '1.1.2'
   ...
 end
 ```
@@ -51,7 +51,7 @@ end
 Для подключения добавьте зависимость в `Cartfile`
 
 ```
-binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main/TrackerTop100SDK.json" ~> 1.1.1
+binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main/TrackerTop100SDK.json" ~> 1.1.2
 ```
 
 Обновите зависимости с помощью команды `carthage update --use-xcframeworks`
@@ -74,7 +74,7 @@ binary "https://raw.githubusercontent.com/top-100-writer/top100-tracker-ios/main
 
 Для подключения напрямую:
 
-[Загрузите архив с пакетом](https://github.com/top-100-writer/top100-tracker-ios-sdk/releases/download/1.1.1/TrackerTop100SDK.xcframework.zip)
+[Загрузите архив с пакетом](https://github.com/top-100-writer/top100-tracker-ios/releases/download/1.1.2/TrackerTop100SDK.xcframework.zip)
 
 Откройте вкладку `General settings` вашего приложения и найдите раздел `Frameworks, Libraries, and Embedded Content`&#x20;
 
