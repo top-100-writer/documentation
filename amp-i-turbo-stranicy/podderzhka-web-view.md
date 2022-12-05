@@ -1,89 +1,77 @@
-# Android Sdk \[BETA]
+# Android sdk \[Beta]
 
 ### Подключение sdk
 
-Добавить в папку libs .aar архив (выдается по запросу)
+SDK под Android предоставляется в виде библиотеки в формате AAR. Библиотека доступна в [Maven-репозитории](https://search.maven.org/search?q=top100-sdk).
 
 Добавить в файл build.gradle&#x20;
 
+{% tabs %}
+{% tab title="Java" %}
 ```
 dependencies {
     // ...
-    implementation files ('libs/kraken-x.x.x.aar')
+    implementation 'io.github.top-100-writer:tracker-top100-sdk:0.1.0'
 }
 ```
+{% endtab %}
 
-### Инициализация в классе Application
-
+{% tab title="Kotlin" %}
 ```
-import ru.sberads.kraken.Kraken;
-import ru.sberads.kraken.KrakenSettings;
+dependencies {
+    // ...
+    implementation ("io.github.top-100-writer:tracker-top100-sdk:0.1.0")
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Базовая инициализация в классе Application
+
+Инициализируйте библиотеку в приложении и настройте отслеживание активности пользователей. Для этого объявите производный класс от базового класса `Application` и переопределите метод `onCreate()`
+
+{% tabs %}
+{% tab title="Java" %}
+```
+import ru.top100.tracker.kraken.data.model.KrakenSettings;
+import ru.top100.tracker.kraken.di.Kraken;
 
 public class MyApplication extends Application {
     @Override
     public final void onCreate() {
-        KrakenSettings krakenSettings = new KrakenSettings.Builder("PROJECT_ID")
-            // ...
+        KrakenSettings config = new KrakenSettings.Builder("PROJECT_ID")
+            // автоматическое отслеживание загрузки активностей
+            .setActivityAutoTracking(true)
             .build();
-        Kraken.activate(getApplicationContext(), krakenSettings);
-        Kraken.activateAutoTracking(this);
+        Kraken.activate((Application) getApplicationContext(), config);
     }
 }
 ```
+{% endtab %}
+
+{% tab title="Kotlin" %}
+```
+import ru.top100.tracker.kraken.data.model.KrakenSettings
+import ru.top100.tracker.kraken.di.Kraken
+
+class MyApplication : MultiDexApplication() {
+    override fun onCreate() {
+        super.onCreate()
+        Kraken
+            .activate(
+                application = this,
+                krakenSettings = KrakenSettings
+                    .Builder(projectId = "PROJECT_ID")
+                    // автоматическое отслеживание загрузки активностей
+                    .setActivityAutoTracking(enabled = true)
+                    // установка параметров sdk
+                    .build()
+            )
+    }
+}
+```
+{% endtab %}
+{% endtabs %}
 
 **PROJECT\_ID** (обязательный) - id проекта, аналогичный js счетчику
 
-### Отправка событий об активации экрана
-
-Для ручной отправки события о просмотре экрана необходимо при активации Activity при ее создании выполнить следующий код
-
-```
-Kraken.trackPageView("SCREEN_CLASS", "URL");
-```
-
-**SCREEN\_CLASS** (обязательный) - название активности, например, "MainActivity"\
-**URL** (опциональный) - релевантный url для web страницы, например, "http://rambler.ru"
-
-### Передача данных в web-view
-
-Если есть необходимость связать события отправляемые из sdk и js-счетчика, то необходимо добавить следующий код в Activity:
-
-```
-@Override
-protected void onCreate(Bundle savedInstanceState) {
-    webView = findViewById(R.id.webView);
-    webView.getSettings().setJavaScriptEnabled(true);
-    webView.loadUrl("https://someurl");
-    webView.setWebViewClient(new MyWebViewClient());
-    webView.addJavascriptInterface(new MyJavaInterface(), "kraken");
-}
-
- private class MyJavaInterface {
-    @android.webkit.JavascriptInterface
-    public String getData() {
-        return Kraken.getData();
-    }
- }
-```
-
-### Отправка собственных событий
-
-При необходимости можно отправить любое собственное событие с помощью метода
-
-```
-Kraken.trackEvent("EVENT_NAME", EVENT_DATA);
-```
-
-EVENT\_NAME - произвольное название события
-
-EVENT\_DATA - произвольные данные о событии, не более 30 параметров в формате Map\<String, String>
-
-Пример:
-
-```
-String eventName = "my_event";
-Map<String, String> eventData = new HashMap<>();
-eventData.put("param", "value");
-
-Kraken.trackEvent(eventName, eventData);
-```

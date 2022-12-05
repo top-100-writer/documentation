@@ -4,6 +4,8 @@
 
 Для разметки материала добавьте атрибут itemscope к любому тегу, в котором содержится описываемая сущность. Чтобы указать, что это за сущность, сразу после itemscope добавьте атрибут itemtype и в качестве его значения пропишите нужный класс в виде `itemtype="http://schema.org/<Имя класса>"`. Сущности также можно вкладывать друг в друга. Чтобы указать свойства сущности, используйте атрибут itemprop.
 
+**Внимание!** Корректный сбор и отправка разметки возможны только при отсутствии вложенных сущностей.
+
 Для корректной передачи информации следует настроить следующие сущности:
 
 * [Тип материала](microdata.md#tip-materiala) \[обязательно]
@@ -11,6 +13,7 @@
 * [Заголовок материала](microdata.md#id-standartysemanticheskoimikrorazmetki-microdata-zagolovok-required) \[обязательно]
 * [Дата публикации](microdata.md#data-publikacii) \[обязательно]
 * [Дата модификации](microdata.md#data-modifikacii)
+* [Url материала](microdata.md#url-materiala)
 * [Рубрика](microdata.md#rubrika)
 * [Тематика](microdata.md#tematika)
 * [Автор](microdata.md#avtor)
@@ -67,6 +70,14 @@
 **Пример:**
 
 `<meta itemprop="dateModified"` `content="2019-07-18T08:21:11+04:00">`
+
+### Url материала
+
+Для передачи url материала и контейнера можно использовать поле [url](https://schema.org/url)
+
+**Пример:**
+
+`"<link itemprop="url" href="https://www.championat.com/football/article-4522451-s-kem-sygraet-sbornaya-rossii-v-stykovyh-matchah-chm-2022-severnaya-makedoniya-vozmozhnyj-sopernik-komandy-karpina.html"></link>"`
 
 ### Рубрика
 
