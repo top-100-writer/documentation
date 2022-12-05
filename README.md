@@ -30,6 +30,7 @@
 * [Протокол работы со счетчиком](protokol-raboty-so-schetchikom/)
   * [Формат запроса](protokol-raboty-so-schetchikom/format-zaprosa.md)
   * [Базовые параметры запроса](protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
+  * [Заголовки запроса](protokol-raboty-so-schetchikom/zagolovki-zaprosa.md)
   * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
   * [Протокол работы со счетчиком [NEW]](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new.md)
 * [AMP и Турбо-страницы](amp-i-turbo-stranicy/)
