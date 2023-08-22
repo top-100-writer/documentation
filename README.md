@@ -1,52 +1,35 @@
-# Введение
+# О сервисе Топ-100
 
-* [Базовая настройка счетчика](bazovaya-nastroika-schetchika/)
-  * [Регистрация в Топ-100](bazovaya-nastroika-schetchika/registraciya-v-top-100.md)
-  * [Создание нового счетчика](bazovaya-nastroika-schetchika/sozdanie-novogo-schetchika.md)
-  * [Указание настроек счетчика](bazovaya-nastroika-schetchika/ukazanie-nastroek-schetchika.md)
-  * [Добавление счетчика на сайт](bazovaya-nastroika-schetchika/dobavlenie-schetchika-na-sait.md)
-* [Донастройка счетчика](donastroika-schetchika/)
-  * [Методы по работе со счетчиком](donastroika-schetchika/metody-po-rabote-so-schetchikom.md)
-  * [Атрибуты счетчика](donastroika-schetchika/atributy-schetchika.md)
-* [Разметка целевых действий](razmetka-celevykh-deistvii/)
-  * [Передача параметров визита](razmetka-celevykh-deistvii/peredacha-parametrov-vizita.md)
-  * [Передача идентификатора пользователя](razmetka-celevykh-deistvii/peredacha-identifikatora-polzovatelya.md)
-  * [Разметка страниц сайта для аналитики блоков](razmetka-stranic-saita-dlya-analitiki-blokov/)
-  * [Разметка разделов сайта](razmetka-celevykh-deistvii/razmetka-razdelov-saita.md)
-  * [Учет хешей](razmetka-celevykh-deistvii/uchet-kheshei.md)
-  * [Сплиты](razmetka-celevykh-deistvii/splity.md)
-* [Разметка сайта для аналитики блоков](razmetka-stranic-saita-dlya-analitiki-blokov/)
-  * [Описание принципов работы](razmetka-stranic-saita-dlya-analitiki-blokov/opisanie-principov-raboty.md)
-  * [Рекомендации по настройке и использованию](razmetka-stranic-saita-dlya-analitiki-blokov/rekomendacii-po-nastroike-i-ispolzovaniyu.md)
-  * [Ограничения и особенности применения](razmetka-stranic-saita-dlya-analitiki-blokov/ogranicheniya-i-osobennosti-primeneniya.md)
-  * [Практическое руководство по разметке блоков](razmetka-stranic-saita-dlya-analitiki-blokov/prakticheskoe-rukovodstvo-po-razmetke-blokov.md)
-* [Передача данных электронной коммерции](peredacha-dannykh-elektronnoi-kommercii/)
-  * [Формат eCommerce-данных](peredacha-dannykh-elektronnoi-kommercii/format-ecommerce-dannykh.md)
-  * [Рекомендации по передаче eCommerce-данных](peredacha-dannykh-elektronnoi-kommercii/rekomendacii-po-peredache-ecommerce-dannykh.md)
-  * [Примеры передачи eCommerce-данных](peredacha-dannykh-elektronnoi-kommercii/primery-peredachi-ecommerce-dannykh.md)
-* [Разметка для отчетов по медиа](razmetka-dlya-otchetov-po-media/)
-  * [Разметка Schema.org](razmetka-dlya-otchetov-po-media/razmetka-schema.org.md)
-  * [Ручная отправка события контакта с медиа](razmetka-dlya-otchetov-po-media/ruchnaya-otpravka-sobytiya-kontakta-s-media.md)
-* [Инструкция для партнёров](instrukciya-dlya-partnerov/)
-  * [Промерочный пиксель на все страницы](instrukciya-dlya-partnerov/promerochnyi-piksel-na-vse-stranicy.md)
-  * [Пиксель для отслеживания цели](instrukciya-dlya-partnerov/piksel-dlya-otslezhivaniya-celi.md)
-  * [Пиксель для баннера](instrukciya-dlya-partnerov/piksel-dlya-bannera.md)
-  * [Партнёрское API](instrukciya-dlya-partnerov/partnerskoe-api/)
-* [Протокол работы со счетчиком](protokol-raboty-so-schetchikom/)
-  * [Формат запроса](protokol-raboty-so-schetchikom/format-zaprosa.md)
-  * [Базовые параметры запроса](protokol-raboty-so-schetchikom/bazovye-parametry-zaprosa.md)
-  * [Заголовки запроса](protokol-raboty-so-schetchikom/zagolovki-zaprosa.md)
-  * [Специальные параметры запроса](protokol-raboty-so-schetchikom/specialnye-parametry-zaprosa.md)
-  * [Протокол работы со счетчиком [NEW]](protokol-raboty-so-schetchikom/protokol-raboty-so-schetchikom-new.md)
-* [AMP и Турбо-страницы](amp-i-turbo-stranicy/)
-  * [Поддержка AMP](amp-i-turbo-stranicy/podderzhka-amp.md)
-  * [Поддержка Турбо-страниц](amp-i-turbo-stranicy/podderzhka-turbo-stranic.md)
-* [Android sdk [Beta]](android-sdk-beta/)
-  * [Параметры sdk](android-sdk-beta/parametry-sdk.md)
-  * [Методы по работе с sdk](android-sdk-beta/metody-po-rabote-s-sdk.md)
-* [iOS sdk [Beta]](ios-sdk-beta/)
-  * [Параметры sdk](ios-sdk-beta/parametry-sdk.md)
-  * [Методы по работе с sdk](ios-sdk-beta/metody-po-rabote-s-sdk.md)
-* [Обратная связь](obratnaya-svyaz.md)
+**Рамблер/топ-100** – это бесплатная кроссплатформенная система аналитики, которая предназначена как для новичков, так и для опытных пользователей и отличается легкостью и простотой в использовании. Сервис позволяет отслеживать основные показатели вашего приложения, а также проводить глубокий анализ любых метрик с помощью отчетов. Это незаменимый инструмент для работы владельцев онлайн-площадок и приложений, интернет-маркетологов и бизнес-аналитиков.
 
-(c) Рамблер, 2022
+### Аналитика для сайтов и приложений
+
+Универсальная, кроссплатформенная, модель данных позволяет строить сквозную аналитику на основе данных с любых поверхностей: браузеров, мобильных приложений, приложений smart-tv и других.
+
+### Обновление отчётов в режиме real-time
+
+Позволит вам проанализировать поведение аудитории проекта в реальном времени. Данные в виджетах обновляются каждые 20 секунд и ограничены интервалом в тридцать минут.&#x20;
+
+### Конструктор отчётов для собранных данных
+
+С помощью гибкой системы Топ-100 вы можете создать отчет с нужными вам событиями и метриками и отобразить собранные данные в удобном виде. Используйте уже созданные шаблоны отчётов или создайте новый по вашим критериям.&#x20;
+
+### Простая установка и настройка счетчика
+
+Понятный интерфейс позволит вам пользоваться отчетами сразу же, без долгой предварительной настройки.
+
+### Интеграция с рекламным кабинетом SberAds
+
+Вы сможете решать задачи performance рекламы: ретаргетинг, аналитику и оптимизацию конверсий;&#x20;
+
+### **Получите специальные отчеты**
+
+* Оцените качество контента на сайте на базе Schema.org и json-ld разметки
+* Воспользуйтесь кроссплатформенным сбором ecom событий в формате measurement protocol
+* Получите отчёт по кликабельности блоков на сайте на основе специальной разметки
+
+### **Включите ваш сайт в Каталог Топ-100**
+
+Опция «Участие в рейтинге» позволит вам увидеть популярность вашего сайта, а также сравнить его позицию в рейтинге с «соседями».
+
+&#x20;
