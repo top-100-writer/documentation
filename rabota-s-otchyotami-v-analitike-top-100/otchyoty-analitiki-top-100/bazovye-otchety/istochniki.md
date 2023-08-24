@@ -124,6 +124,30 @@ Whisla;&#x20;
 
 YouTube;&#x20;
 
+Рамблер;
+
+Сбер;
+
+Soloway;
+
+MediaSniper;
+
+Банки.ру;
+
+Digital Alliance;
+
+Avito;
+
+2ГИС;
+
+Билайн;
+
+Gismeteo;
+
+MRG;
+
+РБК;
+
 Другая система.
 
 
@@ -136,23 +160,23 @@ YouTube;&#x20;
 
 <summary>Список рекомендательных систем</summary>
 
-Яндекс Дзен
+Яндекс Дзен;
 
-Рамблер
+Рамблер;
 
-МирТесен
+МирТесен;
 
-Flipboard
+Flipboard;
 
-Google Discover
+Google Discover;
 
-Opera Personal News
+Opera Personal News;
 
-Pulse
+Pulse;
 
-Sony&#x20;
+Sony;
 
-Toutiao
+Toutiao.
 
 </details>
 
@@ -160,85 +184,85 @@ Toutiao
 
 <summary>Список поисковых систем</summary>
 
-Google
+Google;
 
-Google Mobile App
+Google Mobile App;
 
-Google CSE
+Google CSE;
 
-Яндекс
+Яндекс;
 
-Mail
+Mail;
 
-Bing
+Bing;
 
-Rambler
+Рамблер;
 
-Alhea
+Alhea;
 
-All
+All;
 
-Ask
+Ask;
 
-Baidu
+Baidu;
 
-Biglobe
+Biglobe;
 
-Coc Coc
+Coc Coc;
 
-Daum
+Daum;
 
-DuckDuckGo
+DuckDuckGo;
 
-Ecosia
+Ecosia;
 
-Exalead
+Exalead;
 
-GMX Search Engine
+GMX Search Engine;
 
-HotBot
+HotBot;
 
-I.ua
+I.ua;
 
-KAZ.KZ
+KAZ.KZ;
 
-Kvasir
+Kvasir;
 
-Lycos
+Lycos;
 
-Meta
+Meta;
 
-Metabot
+Metabot;
 
-Najdi
+Najdi;
 
-NAVER
+NAVER;
 
-Nigma
+Nigma;
 
-Tut
+Tut;
 
-SAPO
+SAPO;
 
-1&1 Search Engine
+1&1 Search Engine;
 
-Seznam
+Seznam;
 
-Seznam.cz
+Seznam.cz;
 
-so.360
+so.360;
 
-sogou.com
+sogou.com;
 
-Startpagina
+Startpagina;
 
-wp.pl
+wp.pl;
 
-Yahoo
+Yahoo;
 
-Zapmeta
+Zapmeta;
 
-Спутник
+Спутник.
 
 </details>
 
@@ -246,35 +270,35 @@ Zapmeta
 
 <summary>Список социальных сетей</summary>
 
-Facebook\*
+Facebook\*;
 
-Вконтакте
+Вконтакте;
 
-Twitter
+Twitter;
 
-Одноклассники
+Одноклассники;
 
-LiveJournal
+LiveJournal;
 
-Google+
+Google+;
 
-Мой Мир
+Мой Мир;
 
-LinkedIn
+LinkedIn;
 
-Instagram\*
+Instagram\*;
 
-delicious
+Delicious;
 
-Tumblr
+Tumblr;
 
-Pinterest
+Pinterest;
 
-Reddit
+Reddit;
 
-StumbleUpon
+StumbleUpon;
 
-Другя социальная сеть
+Другая социальная сеть.
 
 
 
@@ -286,21 +310,21 @@ StumbleUpon
 
 <summary>Список обменных сетей</summary>
 
-СМИ24
+СМИ24;
 
-СМИ2
+СМИ2;
 
-Infox
+Infox;
 
-Pulse (Mail.ru)
+Pulse (Mail.ru);
 
-Howto News
+Howto News;
 
-Лента
+Лента;
 
-РИА Новости
+РИА Новости;
 
-Другие системы
+Другие системы.
 
 </details>
 
@@ -308,17 +332,17 @@ Howto News
 
 <summary>Список мессенджеров</summary>
 
-Skype
+Skype;
 
-Telegram
+Telegram;
 
-Viber
+Viber;
 
-WeChat
+WeChat;
 
-WhatsApp
+WhatsApp;
 
-Другой мессенджер
+Другой мессенджер.
 
 </details>
 
@@ -326,11 +350,11 @@ WhatsApp
 
 <summary>Список новостных агрегаторов</summary>
 
-Mail
+Mail;
 
-Google
+Google;
 
-Яндекс
+Яндекс.
 
 </details>
 

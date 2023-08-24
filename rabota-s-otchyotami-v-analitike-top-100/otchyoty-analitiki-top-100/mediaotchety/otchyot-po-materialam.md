@@ -2,7 +2,7 @@
 
 В этом отчёте вы можете получить подробную статистику по всем материалам за выбранный период времени. Рассмотрим каждый блок отчёта подробнее:
 
-<figure><img src="../../../.gitbook/assets/1.4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Настройка периода и фильтра.** Вы можете настроить период времени, семпл, выбрать детализацию по 5 минут или по часам, а также условия, которые вас интересуют. Мы будем рассматривать блоки на примере условий, выбранных по умолчанию.&#x20;
 
@@ -27,5 +27,7 @@
 1. Название материала, URL. При нажатии на название материала вы перейдете на отчет по нему (подробнее в разделе [Отчёт по материалу](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/otchyoty-analitiki-top-100/mediaotchety/otchyot-po-materialu)). Нажатие по ссылке откроет сам материал на сайте.
 2. Источники переходов. Краткая визуализация состава источников переходов на конкретный материал. При наведении курсора на шкалу всплывает подсказка с детальной статистикой.
 
-<figure><img src="../../../.gitbook/assets/6.1.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
