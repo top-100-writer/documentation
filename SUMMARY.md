@@ -80,6 +80,8 @@
       * [Событие показа медиа контента](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/sobytie-pokaza-media-kontenta.md)
       * [События Аналитики Блоков](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/sobytiya-analitiki-blokov.md)
       * [E-Commerce события](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/e-commerce-sobytiya.md)
+      * [Технические события](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/tekhnicheskie-sobytiya/README.md)
+        * [Активность пользователя](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/tekhnicheskie-sobytiya/aktivnost-polzovatelya.md)
 * [Модель данных](model-dannykh/README.md)
   * [Типы событий](model-dannykh/tipy-sobytii.md)
   * [Описание событий](model-dannykh/opisanie-sobytii.md)
