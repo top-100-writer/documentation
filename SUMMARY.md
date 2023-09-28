@@ -74,7 +74,6 @@
         * [Закрытие страницы](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/zakrytie-stranicy.md)
         * [Переход по внешней ссылке](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/perekhod-po-vneshnei-ssylke.md)
         * [Переход по ссылке в приложении](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/perekhod-po-ssylke-v-prilozhenii.md)
-        * [Пользовательская активность](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/polzovatelskaya-aktivnost.md)
         * [Покупка в приложении](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/pokupka-v-prilozhenii.md)
       * [Пользовательские события](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/polzovatelskie-sobytiya.md)
       * [Событие показа медиа контента](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/sobytie-pokaza-media-kontenta.md)

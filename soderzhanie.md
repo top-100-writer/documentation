@@ -58,7 +58,7 @@
          * [Показ страницы/экрана](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/pokaz-stranicy-ekrana.md)
          * [Закрытие страницы](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/zakrytie-stranicy.md)
          * [Переход по внешней ссылке](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/perekhod-po-vneshnei-ssylke.md)
-         * [Пользовательская активность](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/bazovye-sobytiya/polzovatelskaya-aktivnost.md)
+         * [Пользовательская активность](broken-reference)
        * [Пользовательские события](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/polzovatelskie-sobytiya.md)
        * [Событие показа медиа контента](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/sobytie-pokaza-media-kontenta.md)
        * [События Аналитики Блоков](nastroika-sbora-i-otpravki-dannykh/otpravka-dannykh-s2s/parametry-sobytii/sobytiya-analitiki-blokov.md)
