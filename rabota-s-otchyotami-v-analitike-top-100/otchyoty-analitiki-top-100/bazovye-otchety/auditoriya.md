@@ -46,4 +46,4 @@
 * **Пользователи.** Сумма уникальных авторизованных (с заполненным auth\_uid) пользователей за отчетный период.
 * **Пользователи Рамблер.** Сумма уникальных авторизованных (с заполненным rambler\_id) пользователей за отчетный период.&#x20;
 
-Читайте также кейс "[Как сделать, чтобы один и тот же посетитель засчитывался только один раз?](https://app.gitbook.com/o/s5NQd92TJBWJIC5P9IFr/s/Pxw9DqlRH3nHzNm5NYPG/\~/changes/208/prakticheskie-primery-i-ispolzovanie-cook-book/keisy)"
+Читайте также кейс "[Как сделать, чтобы один и тот же посетитель засчитывался только один раз?](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/prakticheskie-primery-i-ispolzovanie-cook-book/keisy)"
