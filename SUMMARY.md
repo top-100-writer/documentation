@@ -3,7 +3,7 @@
 * [О сервисе Топ-100](README.md)
 * [Содержание](soderzhanie.md)
 * [Начало работы с Toп-100](nachalo-raboty-s-top-100/README.md)
-  * [Регистрация на сервисе](nachalo-raboty-s-top-100/registraciya-na-servise.md)
+  * [Регистрация в сервисе](nachalo-raboty-s-top-100/registraciya-na-servise.md)
   * [Создание Счётчика Топ-100](nachalo-raboty-s-top-100/sozdanie-schyotchika-top-100/README.md)
     * [1-ый этап создания Счётчика](nachalo-raboty-s-top-100/sozdanie-schyotchika-top-100/1-yi-etap-sozdaniya-schyotchika.md)
     * [2-ой этап создания Счётчика](nachalo-raboty-s-top-100/sozdanie-schyotchika-top-100/2-oi-etap-sozdaniya-schyotchika.md)
