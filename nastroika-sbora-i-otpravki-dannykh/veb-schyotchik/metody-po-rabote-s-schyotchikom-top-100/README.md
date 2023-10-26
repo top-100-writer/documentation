@@ -1,7 +1,7 @@
-# Методы по работе с Счётчиком Топ-100
+# Методы по работе с счётчиком Топ-100
 
 {% hint style="info" %}
-**ВНИМАНИЕ!** Перед вызовом методов следует убедиться, что экземпляр счетчика создан и доступен. Данные не будут собираться, если счётчик ещё не создан, т.к. их не с чем связать.
+**ВНИМАНИЕ!** Перед вызовом методов следует убедиться, что экземпляр счётчика создан и доступен. Данные не будут собираться, если счётчик ещё не создан, т.к. их не с чем связать.
 {% endhint %}
 
 Поддерживаются следующие методы по работе со счетчиком:
@@ -13,4 +13,4 @@
 </strong></code></pre></td><td><a href="metod-dlya-polucheniya-dannykh-ob-identifikatore-polzovatelya-ustanavlivaemogo-ploshadkoi.md">Метод для получения данных об идентификаторе пользователя, устанавливаемого площадкой</a></td></tr><tr><td><pre><code>top100Counter.drawLogoTo("ELEMENT_ID");
 </code></pre></td><td><a href="metod-dlya-otrisovki-vidzheta-na-stranice.md">Метод для отрисовки виджета на странице</a></td></tr><tr><td><pre><code>top100Counter.sendBlocks();
 </code></pre></td><td><a href="metod-dlya-skanirovaniya-i-otpravki-blokov.md">Метод для сканирования и отправки блоков</a></td></tr><tr><td><pre><code>top100Counter.updateOptions(COUNTER_PARAMS)
-</code></pre></td><td><a href="metod-dlya-obnovleniya-parametrov-schetchika.md">Метод для обновления параметров счетчика</a></td></tr></tbody></table>
+</code></pre></td><td><a href="metod-dlya-obnovleniya-parametrov-schetchika.md">Метод для обновления параметров счётчика</a></td></tr></tbody></table>
