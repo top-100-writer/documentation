@@ -51,3 +51,8 @@
 **ВНИМАНИЕ!** Используемое по умолчанию имя контейнера данных `dataLayer` и структура вкладываемых в него eCommerce-объектов соответствуют аналогичным сущностям в Яндекс.Метрике и Google Analytics Enhanced Ecommerce. Если ваш интернет-магазин уже размечен под эти системы аналитики, достаточно добавить счётчик Топ-100 с подключенным сбором данных для eCommerce на сайт, и он автоматически начнёт собирать эти данные. При этом в качестве контейнера данных используется JavaScript-массив `window.dataLayer`. Если сайт не был предварительно размечен для передачи eCommerce-данных в Яндекс.Метрику или Google Analytics, необходимо разместить контейнер данных на страницах сайта и настроить передачу в Топ-100 событий, происходящих с товарами. Контейнер данных должен находиться в глобальном пространстве имен, а его имя соответствовать имени, заданному при настройке или инициализации счётчика.
 {% endhint %}
 
+Читайте в этом разделе:
+
+* [Формат eCommerce-данных](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/nastroika-sbora-i-otpravki-dannykh/veb-schyotchik/peredacha-e-commerce-dannykh/format-ecommerce-dannykh)
+* [Рекомендации по передаче eCommerce-данных](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/nastroika-sbora-i-otpravki-dannykh/veb-schyotchik/peredacha-e-commerce-dannykh/rekomendacii-po-peredache-ecommerce-dannykh)
+* [Примеры передачи eCommerce-данных](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/nastroika-sbora-i-otpravki-dannykh/veb-schyotchik/peredacha-e-commerce-dannykh/primery-peredachi-ecommerce-dannykh)
