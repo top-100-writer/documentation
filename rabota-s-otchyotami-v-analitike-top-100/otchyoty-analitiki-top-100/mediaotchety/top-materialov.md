@@ -8,14 +8,14 @@
 
 <figure><img src="../../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
-* **Ключевые метрики.** Основной раздел отчета, демонстрирующий целевые метрики по всем материалам сайта за выбранный период (по умолчанию показаны метрики за сегодня): дочтение, рециркуляция, время на материале, просмотры, посетители.  Подробное описание метрик читайте в разделе [Вычисляемые метрики](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/metriki-analitiki-top-100/vychislyaemye-metriki).
+* **Ключевые метрики.** Основной раздел отчета, демонстрирующий целевые метрики по всем материалам сайта за выбранный период (по умолчанию показаны метрики за сегодня): дочтение, рециркуляция, время на материале, просмотры, посетители.  Подробное описание метрик читайте в разделе «[Вычисляемые метрики](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/metriki-analitiki-top-100/vychislyaemye-metriki)».
 
 <figure><img src="../../../.gitbook/assets/3.1.png" alt=""><figcaption></figcaption></figure>
 
 * **Таблица с рейтингом материалов.** Здесь вы можете посмотреть обновляющийся рейтинг самых популярных материалов и их метрики за весь день или меньший промежуток времени. Падение или рост материала в рейтинге отображается стрелками слева от его названия.&#x20;
 
-Доступные метрики: просмотры, посетители, время на материале, дочтение, доскролл, рециркуляция, переходы, пользователи, визиты, пользователи Рамблер. Подробное описание метрик читайте в разделе [Вычисляемые метрики](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/metriki-analitiki-top-100/vychislyaemye-metriki).
+Доступные метрики: просмотры, посетители, время на материале, дочтение, доскролл, рециркуляция, переходы, пользователи, визиты, пользователи Рамблер. Подробное описание метрик читайте в разделе «[Вычисляемые метрики](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/metriki-analitiki-top-100/vychislyaemye-metriki)».
 
-Вы можете выбрать одновременно до 7 метрик в настройках, однако Просмотры и Источники переходов будут показываться по умолчанию. Источники переходов – это краткая визуализация состава источников переходов на конкретный материал. При наведении курсора на шкалу всплывает подсказка с детальной статистикой (подробнее см. раздел  [Источники трафика](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/otchyoty-analitiki-top-100/bazovye-otchety/istochniki)).
+Вы можете выбрать одновременно до 7 метрик в настройках, однако Просмотры и Источники переходов будут показываться по умолчанию. Источники переходов – это краткая визуализация состава источников переходов на конкретный материал. При наведении курсора на шкалу всплывает подсказка с детальной статистикой (подробнее см. раздел «[Источники трафика](https://top-100-writer.gitbook.io/dokumentaciya-top-100-po-novoi-modeli-progress/rabota-s-otchyotami-v-analitike-top-100/otchyoty-analitiki-top-100/bazovye-otchety/istochniki)»).
 
 <figure><img src="../../../.gitbook/assets/8 (4).png" alt=""><figcaption></figcaption></figure>

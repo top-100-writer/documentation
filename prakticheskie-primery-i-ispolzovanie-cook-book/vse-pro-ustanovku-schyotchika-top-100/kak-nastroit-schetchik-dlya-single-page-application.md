@@ -13,6 +13,3 @@
 &#x20;    **trackHashes: true**
 
 **};**
-
-Более подробное описание дополнительных настроек счетчика вы можете прочитать в [руководстве разработчика](https://top-100-writer.gitbook.io/top100-documentation/donastroika-schetchika/metody-po-rabote-so-schetchikom).
-

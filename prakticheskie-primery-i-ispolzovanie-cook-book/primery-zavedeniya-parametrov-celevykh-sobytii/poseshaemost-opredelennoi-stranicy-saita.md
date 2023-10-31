@@ -6,7 +6,7 @@
 
 <figure><img src="../../.gitbook/assets/Пример 3.0.0.png" alt=""><figcaption></figcaption></figure>
 
-* Далее выберем «События» – «Класс события». Просмотр страницы относится к базовым событиям (см. [Описание событий](../../model-dannykh/opisanie-sobytii.md)). Ставим галочку напротив Базовых событий.
+* Далее выберем «События» – «Класс события». Просмотр страницы относится к базовым событиям (см. «[Описание событий](../../model-dannykh/opisanie-sobytii.md)»). Ставим галочку напротив Базовых событий.
 
 <figure><img src="../../.gitbook/assets/Пример 3.1.png" alt=""><figcaption></figcaption></figure>
 
