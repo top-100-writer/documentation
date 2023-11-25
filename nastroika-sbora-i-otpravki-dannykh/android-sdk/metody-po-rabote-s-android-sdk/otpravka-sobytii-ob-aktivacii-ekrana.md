@@ -18,6 +18,6 @@ Kraken.trackPageView("SCREEN_CLASS", "URL", "TITLE");
 {% endtab %}
 {% endtabs %}
 
-**SCREEN\_CLASS** (обязательный) - название активности, например, "MainActivity"\
-**URL** (опциональный) - релевантный url для web страницы, например, "https://rambler.ru"\
-**TITLE** (опциональный) - название экрана
+**SCREEN\_CLASS** (обязательный) – название активности, например, "MainActivity"\
+**URL** (опциональный) – релевантный url для web страницы, например, "https://rambler.ru"\
+**TITLE** (опциональный) – название экрана
